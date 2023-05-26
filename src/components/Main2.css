@@ -1,0 +1,43 @@
+.main2{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.enrolled_friends{
+    background: linear-gradient(270deg, #800080 0%, #FF864C 100%);
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.name{
+    justify-content: space-between;
+}
+
+.courses{
+    overflow-x: scroll;
+    flex-wrap: inherit;
+}
+
+.courses::-webkit-scrollbar {
+    width: 1px; 
+    height: 2px;
+    /* Remove the scrollbar width for WebKit browsers (Chrome, Safari, etc.) */
+  }
+  .courses::-webkit-scrollbar-thumb {
+    background-color: #6b4343; /* Set the color of the scrollbar thumb */
+    border-radius: 5px;
+
+    
+  }
+
+.courses p{
+    background: transparent;
+    border: 1px solid wheat;
+    border-radius: 15px;
+    color: white;
+    padding: 2px;
+}
+
+
+
